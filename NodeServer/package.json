@@ -1,0 +1,14 @@
+{
+  "name": "ichat",
+  "version": "1.0.0",
+  "description": "This is Node Server for Our Ichat Application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanshul Kesharwani",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^3.0.1"
+  }
+}

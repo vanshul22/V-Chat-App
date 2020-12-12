@@ -1,0 +1,72 @@
+/* Prettier for css formatter */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(white,rgb(19, 46, 49));
+    height: 100vh;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    background-color: red;
+    padding: 12px;
+    margin: auto;
+    max-width: 1000px;
+    height: 70vh;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    overflow-y: auto;
+}
+nav h1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.message{
+    background-color: grey;
+    width: 30%;
+    margin: 8px 10px;
+    padding: 11px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.mid{
+    float: inherit;
+    clear: both;
+    margin-left: 20rem;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+#message-inp{
+    width: 52%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#send-container .btn{
+    width: 80px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 11px;
+}
