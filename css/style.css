@@ -63,7 +63,6 @@ nav h1{
     margin: auto;
     text-align: center;
     width: 50rem;
-    background-color: green;
 }
 
 #message-inp{
@@ -71,7 +70,6 @@ nav h1{
     padding: 7px;
     border: 2px solid black;
     border-radius: 8px;
-    background-color: green;
 }
 
 #send-container .btn{
@@ -88,14 +86,12 @@ nav h1{
         margin: auto;
         text-align: center;
         width: 40em;
-        background-color: yellow;
     }
     #message-inp{
         width: 35em;
         padding: 6px;
         border: 2px solid black;
         border-radius: 8px;
-        background-color: yellow;
     }
 }
 
@@ -105,14 +101,12 @@ nav h1{
         margin: auto;
         text-align: center;
         width: 30em;
-        background-color: red;
     }
     #message-inp{
         width: 25em;
         padding: 6px;
         border: 2px solid black;
         border-radius: 8px;
-        background-color: red;
     }
 }
 
@@ -122,14 +116,12 @@ nav h1{
         margin: auto;
         text-align: center;
         width: 20em;
-        background-color: darkblue;
     }
     #message-inp{
         width: 15em;
         padding: 7px;
         border: 2px solid black;
         border-radius: 8px;
-        background-color: darkblue;
     }
 }
 
@@ -139,13 +131,11 @@ nav h1{
         margin: auto;
         text-align: center;
         width: 12em;
-        background-color: white;
     }
     #message-inp{
         width: 8em;
         padding: 6px;
         border: 2px solid black;
         border-radius: 8px;
-        background-color: white;
     }
 }
