@@ -4,33 +4,34 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-image: linear-gradient(white,rgb(19, 46, 49));
-    height: 100vh;
+    height: 98.5vh;
 }
+
 .logo{
     display: block;
-    margin: auto;
-    height: 50px;
-    width: 50px;
+    margin: 0.6rem auto;
+    height: 3rem;
+    width: 3rem;
 }
+
+nav h1{
+    text-align: center;
+}
+
 .container{
     background-color: red;
     padding: 12px;
-    margin: auto;
-    max-width: 1000px;
+    margin: 15px auto 25px auto;
+    max-width: 55rem;
     height: 70vh;
+    border: 2px solid black;
     border-radius: 18px;
-    margin-bottom: 25px;
     overflow-y: auto;
 }
-nav h1{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    color: white;
-}
+
 .message{
     background-color: grey;
     width: 30%;
@@ -38,35 +39,113 @@ nav h1{
     padding: 11px 14px;
     border: 2px solid black;
     border-radius: 10px;
+    
 }
+
 .left{
     float: left;
     clear: both;
 }
+
 .right{
     float: right;
     clear: both;
 }
+
 .mid{
     float: inherit;
     clear: both;
     margin-left: 20rem;
 }
+
 #send-container{
     display: block;
     margin: auto;
     text-align: center;
-    width: 100%;
+    width: 50rem;
+    background-color: green;
 }
+
 #message-inp{
-    width: 52%;
-    padding: 5px;
+    width: 40rem;
+    padding: 7px;
     border: 2px solid black;
     border-radius: 8px;
+    background-color: green;
 }
+
 #send-container .btn{
-    width: 80px;
+    width: 5rem;
     padding: 8px;
     border: 2px solid black;
     border-radius: 11px;
+    font-family:cursive;
+}
+
+@media (min-width:651px) and (max-width:800px) {
+    #send-container{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 40em;
+        background-color: yellow;
+    }
+    #message-inp{
+        width: 35em;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: yellow;
+    }
+}
+
+@media (min-width:501px) and (max-width:650px) {
+    #send-container{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 30em;
+        background-color: red;
+    }
+    #message-inp{
+        width: 25em;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: red;
+    }
+}
+
+@media (min-width:351px) and (max-width:500px){
+    #send-container{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 20em;
+        background-color: darkblue;
+    }
+    #message-inp{
+        width: 15em;
+        padding: 7px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: darkblue;
+    }
+}
+
+@media (max-width:349px) {
+    #send-container{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 12em;
+        background-color: white;
+    }
+    #message-inp{
+        width: 8em;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: white;
+    }
 }
